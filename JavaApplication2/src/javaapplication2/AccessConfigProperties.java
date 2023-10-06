@@ -22,6 +22,8 @@ public class AccessConfigProperties {
      */
     public static void main(String[] args) throws FileNotFoundException, IOException {
         // TODO code application logic here
+        
+        //For Dynamic Settings
         Properties properties = new Properties();
         String file ="E:\\PROJECT - SCRATCH\\PRACTICE CODE\\JAVA\\JavaApplication2\\src\\config.properties";
         FileInputStream FIS = new FileInputStream(file);
